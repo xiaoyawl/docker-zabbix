@@ -1,4 +1,5 @@
-FROM benyoo/centos:7.3.1611.20170724
+#FROM benyoo/centos:7.3.1611.20170724
+FROM centos:centos7
 LABEL maintainer "Jan Garaj <info@monitoringartist.com>"
 
 # ZABBIX_VERSION=trunk tags/3.0.1 branches/dev/ZBXNEXT-1263-1
