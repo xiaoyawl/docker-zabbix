@@ -181,6 +181,8 @@ RUN \
   pip install pyzabbix && \
   yum autoremove -y ipa-pgothic-fonts python-pip && \
   yum clean all && \
+  wget https://github.com/xiaoyawl/docker-zabbix/raw/master/fonts/simkai.ttf -O /usr/local/src/zabbix/frontends/php/fonts/simkai.ttf && \
+  sed -i 's/DejaVuSans/simkai/g' /usr/local/src/zabbix/frontends/php/include/defines.inc.php && \
   grep 'XXL' /usr/local/src/zabbix/frontends/php/include/defines.inc.php && \
   sed -i "s#]))->addClass(ZBX_STYLE_FOOTER);#,' / ',(new CLink('Monitoring Artist Ltd', 'http://www.monitoringartist.com'))->addClass(ZBX_STYLE_GREY)->addClass(ZBX_STYLE_LINK_ALT)->setAttribute('target', '_blank'),]))->addClass(ZBX_STYLE_FOOTER);#g" /usr/local/src/zabbix/frontends/php/include/html.inc.php && \
   grep 'www.monitoringartist.com' /usr/local/src/zabbix/frontends/php/include/html.inc.php && \
