@@ -55,6 +55,7 @@ fix_permissions() {
   getent passwd zabbix || useradd -g zabbix -M zabbix
   chown -R $ZS_User:$ZS_User /usr/local/etc/
   chown -R $ZS_User:$ZS_User /usr/local/src/zabbix/
+  chown -R www.www /usr/local/src/zabbix/frontends/php/oneoaas/
   mkdir -p /usr/local/src/zabbix/frontends/php/conf/
   chmod 777 /usr/local/src/zabbix/frontends/php/conf/
   chmod u+s /usr/bin/ping
