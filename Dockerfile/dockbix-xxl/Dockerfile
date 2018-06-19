@@ -4,7 +4,7 @@ LABEL maintainer "Jan Garaj <info@monitoringartist.com>"
 
 # ZABBIX_VERSION=trunk tags/3.0.1 branches/dev/ZBXNEXT-1263-1
 
-ARG ZABBIX_VERSION=${ZABBIX_VERSION:-tags/3.4.4}
+ARG ZABBIX_VERSION=${ZABBIX_VERSION:-tags/3.4.10}
 
 ENV \
   ZS_enabled=true \
@@ -107,7 +107,7 @@ RUN \
               unixODBC unixODBC-devel mysql-connector-odbc postgresql-odbc \
               openldap-devel telnet net-tools snmptt sudo rubygems ruby-devel \
               jq openssh-clients python-httplib2 python-simplejson \
-              libevent-devel openldap-clients patch && \
+              libevent-devel openldap-clients patch fping && \
   yum -y -q reinstall glibc-common && \
   cp /usr/local/etc/zabbix_agentd.conf /tmp && \
   svn co svn://svn.zabbix.com/${ZABBIX_VERSION} /usr/local/src/zabbix && \

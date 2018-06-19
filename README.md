@@ -1,5 +1,3 @@
-[<img src="https://monitoringartist.github.io/managed-by-monitoringartist.png" alt="Managed by Monitoring Artist: DevOps / Docker / Kubernetes / AWS ECS / Zabbix / Zenoss / Terraform / Monitoring" align="right"/>](http://www.monitoringartist.com 'DevOps / Docker / Kubernetes / AWS ECS / Zabbix / Zenoss / Terraform / Monitoring')
-
 # Dockbix XXL
 
 [Dockbix XXL](https://github.com/monitoringartist/dockbix-xxl) is a Dockerized Zabbix preconfigured for easy Docker monitoring. This Docker image contains standard Zabbix + additional XXL community extensions. Routine tasks are included: auto-import of Zabbix DB, auto-import of Docker monitoring templates, autoregistration rule for [Dockbix agent XXL](https://github.com/monitoringartist/dockbix-agent-xxl), ...
@@ -313,7 +311,7 @@ Sometimes you might just want to review how things are deployed inside a running
 docker exec -ti zabbix /bin/bash
 ```
 
-Run specific Zabbix version, e.g. 3.4.0 - just specify 3.4.0 tag for image:
+Run specific Zabbix version, e.g. 3.4.10 - just specify 3.4.10 tag for image:
 ```sh
 	docker run \
 		-d \
@@ -325,7 +323,7 @@ Run specific Zabbix version, e.g. 3.4.0 - just specify 3.4.0 tag for image:
 		--env="ZS_DBHost=zabbix.db" \
 		--env="ZS_DBUser=zabbix" \
 		--env="ZS_DBPassword=my_password" \
-		monitoringartist/dockbix-xxl:3.4.0
+		monitoringartist/dockbix-xxl:3.4.10
 ```
 
 # PostgreSQL version
