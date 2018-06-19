@@ -34,26 +34,27 @@ $widget->show();
 <p>
 Dockbix XXL contains standard Zabbix + additional XXL (community)
 extensions and everything is packaged into Docker image for easy deployment.<br />
-Source repo: <a target="_blank" href="https://github.com/monitoringartist/dockbix-xxl">https://github.com/monitoringartist/dockbix-xxl</a>
+Source repo: <a target="_blank" href="https://github.com/xiaoyawl/docker-zabbix">https://github.com/xiaoyawl/docker-zabbix</a>
 </p>
+<!--
 <p>
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8LB6J222WRUZ4" target="_blank">
     <img src="searcher/assets/donate-button2.png">
   </a>
   <br /><br />
 </p>
-
+-->
 <p>
   <h2>Author</h2>
 </p>
 <div style="background: white; padding: 10px; margin-bottom: 2em;">
-  <a title="DevOps / Docker / Kubernetes / AWS ECS / Zabbix / Zenoss / Terraform / Monitoring" href="http://www.monitoringartist.com" target="_blank" style="float: right;">
+  <a title="DevOps / Docker / Kubernetes / AWS ECS / Zabbix / Zenoss / Terraform / Monitoring" href="http://www.dwhd.org" target="_blank" style="float: right;">
     <img alt="DevOps / Docker / Kubernetes / AWS ECS / Zabbix / Zenoss / Terraform / Monitoring" src="searcher/assets/Monitoring-Artist-logo.jpg">
   </a>
-  <a title="DevOps / Docker / Kubernetes / AWS ECS / Zabbix / Zenoss / Terraform / Monitoring" href="http://www.monitoringartist.com" target="_blank">
+  <a title="DevOps / Docker / Kubernetes / AWS ECS / Zabbix / Zenoss / Terraform / Monitoring" href="http://www.dwhd.org" target="_blank">
   Monitoring Artist</a> is a company, which provides professional devops, automation, cloud and monitoring services.<br />
   Most of the projects are related to open source monitoring tools such as Zabbix, Zenoss, Grafana, ...<br /><br />
-  Feel free to contact us (<a href="mailto:info@monitoringartist.com">info@monitoringartist.com</a>) for commercial support of your Dockerized Zabbix or Docker/Kubernetes/AWS ECS/Mesos monitoring.
+  Feel free to contact us (<a href="mailto:mondeolove@gmail.com">mondeolove@gmail.com</a>) for commercial support of your Dockerized Zabbix or Docker/Kubernetes/AWS ECS/Mesos monitoring.
   <div style="clear:both; width: 100%; height:0;font-size:0;"></div>
 </div>
 <p>

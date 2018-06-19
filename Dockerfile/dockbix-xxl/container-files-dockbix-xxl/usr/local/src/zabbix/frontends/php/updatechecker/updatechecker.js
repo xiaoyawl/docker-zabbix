@@ -1,6 +1,6 @@
 var xxlUpdateCheck = "xxl_updatechecker";
 var xxlCurrentVersion = "";
-var xxlUpdateUrl = 'https://raw.githubusercontent.com/monitoringartist/dockbix-xxl/master/latest';
+var xxlUpdateUrl = 'https://raw.githubusercontent.com/xiaoyawl/docker-zabbix/master/latest';
 
 // check version once per day
 function updateCheck() {
